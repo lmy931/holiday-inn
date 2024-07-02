@@ -36,7 +36,7 @@ const ProductDetails = () => {
       {province && (
         <div className="text-center mb-4">
           <img
-            src={`/images/provinces/${provinces[province]}`}
+            src={`${process.env.REACT_APP_BASE_URL}/images/provinces/${provinces[province]}`}
             alt={province}
             className="img-fluid rounded"
             style={{ maxWidth: '100%', height: 'auto' }}

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ProvinceSelector from './components/ProvinceSelector';
 import ProductDetails from './components/ProductDetails';
@@ -8,7 +7,7 @@ import OrderConfirmation from './components/OrderConfirmation';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.REACT_APP_BASE_URL}>
       <Routes>
         <Route path="/" element={<ProvinceSelector />} />
         <Route path="/products" element={<ProductDetails />} />
