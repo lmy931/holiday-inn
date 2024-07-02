@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import ProvinceSelector from './components/ProvinceSelector';
 import ProductDetails from './components/ProductDetails';
 import OrderForm from './components/OrderForm';
@@ -17,7 +17,7 @@ const App = () => {
   usePreloadImages(imageUrls);
 
   return (
-    <Router basename="/aroma-booking">
+    <Router>
       <Routes>
         <Route path="/" element={<ProvinceSelector />} />
         <Route path="/products" element={<ProductDetails />} />
