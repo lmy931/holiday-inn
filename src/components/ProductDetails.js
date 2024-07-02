@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -26,16 +26,6 @@ const ProductDetails = () => {
     '浙江': 'zhejiang.png'
   };
 
-  const [isImageLoaded, setIsImageLoaded] = useState(false);
-
-  useEffect(() => {
-    if (province && provinces[province]) {
-      const img = new Image();
-      img.src = `${process.env.REACT_APP_BASE_URL}/images/provinces/${provinces[province]}`;
-      img.onload = () => setIsImageLoaded(true);
-    }
-  }, [province, provinces]);
-
   const navigateToOrderForm = () => {
     navigate('/order');
   };
@@ -43,7 +33,7 @@ const ProductDetails = () => {
   return (
     <div className="container mt-5">
       <h1 className="text-center mb-4">欢迎来到 {province}</h1>
-      {province && isImageLoaded && (
+      {province && (
         <div className="text-center mb-4">
           <img
             src={`${process.env.REACT_APP_BASE_URL}/images/provinces/${provinces[province]}`}
@@ -61,8 +51,8 @@ const ProductDetails = () => {
           <li><strong>优雅瓶身</strong>：简约大方的设计，适合各种场合的摆放，是家居装饰的点睛之笔。</li>
           <li><strong>享受和风花语</strong>：开启一段与众不同的芳香之旅。</li>
         </ul>
-        <div className="text-center mt-3">
-          <button className="btn btn-primary" onClick={navigateToOrderForm}>去订单表单</button>
+        <div className="text-center mt-5">
+          <button className="btn btn-primary" onClick={navigateToOrderForm}>一键下单</button>
         </div>
       </div>
     </div>
