@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -26,6 +26,16 @@ const ProductDetails = () => {
     '浙江': 'zhejiang.png'
   };
 
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
+
+  useEffect(() => {
+    if (province && provinces[province]) {
+      const img = new Image();
+      img.src = `${process.env.REACT_APP_BASE_URL}/images/provinces/${provinces[province]}`;
+      img.onload = () => setIsImageLoaded(true);
+    }
+  }, [province, provinces]);
+
   const navigateToOrderForm = () => {
     navigate('/order');
   };
@@ -33,7 +43,7 @@ const ProductDetails = () => {
   return (
     <div className="container mt-5">
       <h1 className="text-center mb-4">欢迎来到 {province}</h1>
-      {province && (
+      {province && isImageLoaded && (
         <div className="text-center mb-4">
           <img
             src={`${process.env.REACT_APP_BASE_URL}/images/provinces/${provinces[province]}`}
