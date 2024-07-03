@@ -44,7 +44,7 @@ const ProductDetails = () => {
   };
 
   const navigateToOrderForm = () => {
-    navigate('/order');
+    navigate(`/order?province=${province}`);
   };
 
   return (
