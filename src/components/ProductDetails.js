@@ -49,7 +49,6 @@ const ProductDetails = () => {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center mb-4">欢迎来到 {province}</h1>
       {province && (
         <div className="text-center mb-4">
           <img
@@ -66,7 +65,7 @@ const ProductDetails = () => {
             <li key={index}>{detail}</li>
           ))}
         </ul>
-        <div className="text-center mt-5">
+        <div className="text-center mt-5 mb-5"> {/* Added mb-5 class */}
           <button className="btn btn-primary" onClick={navigateToOrderForm}>一键下单</button>
         </div>
       </div>
