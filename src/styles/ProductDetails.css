@@ -1,0 +1,15 @@
+/* src/styles/ProductDetails.css */
+
+/* Default styles for images */
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Styles for images on larger screens */
+@media (min-width: 768px) {
+  .product-image {
+    max-width: 50%;
+  }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/ProductDetails.css';  // 引入自定义 CSS 文件
 import provinceDetails from './provinceDetails';  // 省份说明的文件
 
 const ProductDetails = () => {
@@ -54,12 +55,12 @@ const ProductDetails = () => {
           <img
             src={`${process.env.REACT_APP_BASE_URL}/images/provinces/${provinces[province]}`}
             alt={province}
-            className="img-fluid rounded"
-            style={{ maxWidth: '100%', height: 'auto' }}
+            className="product-image"
           />
         </div>
       )}
       <div>
+        <p className="lead"><strong>产品特点：</strong></p>
         <ul className="list-unstyled">
           {provinceDetails[province] && provinceDetails[province].split('，').map((detail, index) => (
             <li key={index}>{detail}</li>
