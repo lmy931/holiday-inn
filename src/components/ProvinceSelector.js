@@ -18,19 +18,36 @@ const ProvinceSelector = () => {
       if (province) {
         navigate(`/products?province=${provinceName}`);
       } else {
-        alert('选择的省份无效，请选择一个有效的省份');
+        // alert('选择的省份无效，请选择一个有效的省份');
       }
     }
+  };
+
+  const handleListClick = (provinceName) => {
+    navigate(`/products?province=${provinceName}`);
   };
 
   return (
     <div className="container mt-5">
       <h1 className="text-center mb-4">请选择您的省份</h1>
       <div
-        className="china-map"
+        className="china-map mb-4"
         onClick={handleProvinceClick}
         dangerouslySetInnerHTML={{ __html: ChinaMapPaths }}
       />
+      <ul className="list-group">
+        {provinces.map(province => (
+          <li
+            key={province.name}
+            onClick={() => handleListClick(province.name.toLowerCase())}
+            className="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+            style={{ cursor: 'pointer' }}
+          >
+            {province.name}
+            <span className="badge badge-primary badge-pill">&gt;</span>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
