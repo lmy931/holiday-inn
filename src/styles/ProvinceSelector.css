@@ -1,0 +1,13 @@
+.china-map {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.china-map path {
+  cursor: pointer;
+}
+
+.china-map path:hover {
+  fill: red; /* 鼠标悬停时高亮显示 */
+}
