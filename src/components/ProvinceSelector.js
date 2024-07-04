@@ -10,9 +10,6 @@ const ProvinceSelector = () => {
   const handleProvinceClick = (event) => {
     let provinceName = event.target.getAttribute('name');
     if (provinceName) {
-      // 转换省份名称为小写并去掉下划线
-      provinceName = provinceName.replace(/_/g, '').toLowerCase();
-      console.log(provinceName);
       navigate(`/products?province=${provinceName}`);
     }
   };
