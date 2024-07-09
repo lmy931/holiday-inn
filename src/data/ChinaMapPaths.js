@@ -314,34 +314,34 @@ export const ChinaMapPaths = `
          style="fill:#b3b4c1;fill-opacity:1;stroke:none" /></g></g></g>
          
          <text x="570" y="100" font-size="12" class="province-text" text-anchor="middle">黑龙江</text>
-         <text x="560" y="150" font-size="12" class="province-text" text-anchor="middle">吉林</text>
-         <text x="525" y="180" font-size="12" class="province-text" text-anchor="middle">辽宁</text>
+         <text x="560" y="145" font-size="12" class="province-text" text-anchor="middle">吉林</text>
+         <text x="525" y="175" font-size="12" class="province-text" text-anchor="middle">辽宁</text>
          <text x="430" y="160" font-size="12" class="province-text" text-anchor="middle">内蒙古</text>
-         <text x="510" y="220" font-size="12" class="province-text" text-anchor="middle">北京</text>
-         <text x="530" y="230" font-size="12" class="province-text" text-anchor="middle">天津</text>
-         <text x="490" y="250" font-size="12" class="province-text" text-anchor="middle">河北</text>
-         <text x="450" y="300" font-size="12" class="province-text" text-anchor="middle">山西</text>
-         <text x="430" y="350" font-size="12" class="province-text" text-anchor="middle">陕西</text>
-         <text x="500" y="300" font-size="12" class="province-text" text-anchor="middle">河南</text>
-         <text x="530" y="290" font-size="12" class="province-text" text-anchor="middle">山东</text>
-         <text x="520" y="340" font-size="12" class="province-text" text-anchor="middle">安徽</text>
-         <text x="550" y="350" font-size="12" class="province-text" text-anchor="middle">江苏</text>
-         <text x="560" y="370" font-size="12" class="province-text" text-anchor="middle">上海</text>
-         <text x="570" y="390" font-size="12" class="province-text" text-anchor="middle">浙江</text>
-         <text x="580" y="410" font-size="12" class="province-text" text-anchor="middle">福建</text>
-         <text x="510" y="380" font-size="12" class="province-text" text-anchor="middle">江西</text>
-         <text x="490" y="330" font-size="12" class="province-text" text-anchor="middle">湖北</text>
-         <text x="470" y="360" font-size="12" class="province-text" text-anchor="middle">湖南</text>
-         <text x="370" y="330" font-size="12" class="province-text" text-anchor="middle">四川</text>
-         <text x="430" y="420" font-size="12" class="province-text" text-anchor="middle">贵州</text>
-         <text x="380" y="460" font-size="12" class="province-text" text-anchor="middle">云南</text>
-         <text x="300" y="300" font-size="12" class="province-text" text-anchor="middle">甘肃</text>
-         <text x="250" y="350" font-size="12" class="province-text" text-anchor="middle">青海</text>
-         <text x="350" y="300" font-size="12" class="province-text" text-anchor="middle">宁夏</text>
-         <text x="100" y="300" font-size="12" class="province-text" text-anchor="middle">新疆</text>
-         <text x="450" y="470" font-size="12" class="province-text" text-anchor="middle">广西</text>
+         <text x="455" y="200" font-size="12" class="province-text" text-anchor="middle">北京</text>
+         <text x="470" y="215" font-size="12" class="province-text" text-anchor="middle">天津</text>
+         <text x="450" y="230" font-size="12" class="province-text" text-anchor="middle">河北</text>
+         <text x="412" y="250" font-size="12" class="province-text" text-anchor="middle">山西</text>
+         <text x="375" y="285" font-size="12" class="province-text" text-anchor="middle">陕西</text>
+         <text x="430" y="290" font-size="12" class="province-text" text-anchor="middle">河南</text>
+         <text x="480" y="250" font-size="12" class="province-text" text-anchor="middle">山东</text>
+         <text x="480" y="325" font-size="12" class="province-text" text-anchor="middle">安徽</text>
+         <text x="505" y="300" font-size="12" class="province-text" text-anchor="middle">江苏</text>
+         <text x="530" y="325" font-size="12" class="province-text" text-anchor="middle">上海</text>
+         <text x="510" y="350" font-size="12" class="province-text" text-anchor="middle">浙江</text>
+         <text x="490" y="400" font-size="12" class="province-text" text-anchor="middle">福建</text>
+         <text x="460" y="370" font-size="12" class="province-text" text-anchor="middle">江西</text>
+         <text x="420" y="330" font-size="12" class="province-text" text-anchor="middle">湖北</text>
+         <text x="410" y="380" font-size="12" class="province-text" text-anchor="middle">湖南</text>
+         <text x="300" y="330" font-size="12" class="province-text" text-anchor="middle">四川</text>
+         <text x="350" y="390" font-size="12" class="province-text" text-anchor="middle">贵州</text>
+         <text x="280" y="420" font-size="12" class="province-text" text-anchor="middle">云南</text>
+         <text x="325" y="270" font-size="12" class="province-text" text-anchor="middle">甘肃</text>
+         <text x="230" y="250" font-size="12" class="province-text" text-anchor="middle">青海</text>
+         <text x="345" y="245" font-size="12" class="province-text" text-anchor="middle">宁夏</text>
+         <text x="120" y="170" font-size="12" class="province-text" text-anchor="middle">新疆</text>
+         <text x="370" y="435" font-size="12" class="province-text" text-anchor="middle">广西</text>
          <text x="510" y="520" font-size="12" class="province-text" text-anchor="middle">海南</text>
-         <text x="450" y="370" font-size="12" class="province-text" text-anchor="middle">重庆</text>
-         <text x="500" y="450" font-size="12" class="province-text" text-anchor="middle">广东</text>
+         <text x="360" y="350" font-size="12" class="province-text" text-anchor="middle">重庆</text>
+         <text x="440" y="430" font-size="12" class="province-text" text-anchor="middle">广东</text>
          
         </svg>`;
