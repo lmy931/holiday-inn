@@ -15,3 +15,15 @@
     max-width: 100%;
   }
 }
+
+.province-active {
+  fill: #add8e6; /* Light blue */
+}
+
+.province-inactive {
+  fill: #808080; /* Light blue */
+}
+
+.province-text {
+  fill: #333333;
+}
