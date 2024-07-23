@@ -12,7 +12,8 @@ body, html {
 
 .china-map {
   margin: auto;
-  width: 90%;
+  width: 100%;
+  max-width: 600px; /* 限制最大宽度 */
   border: none; /* 明确设置无边框 */
 }
 
@@ -25,6 +26,7 @@ body, html {
   margin: 5px;
   padding: 10px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1 1 auto; /* 设置按钮在小屏幕上的布局 */
 }
 
 .btn-custom:hover {
@@ -39,4 +41,15 @@ body, html {
 
 .province-active {
   fill: #1e1e2f; /* Light blue */
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .btn-custom {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
 }
