@@ -1,29 +1,42 @@
+body, html {
+  background-color: #1e1e2f;
+  color: white;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
 .china-map {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  margin: 0 auto;
+  margin: auto;
+  width: 90%;
+  border: none; /* 明确设置无边框 */
 }
 
-.china-map svg {
-  width: 100%;
-  height: auto;
+.btn-custom {
+  background-color: #3a3a4f;
+  border: 1px solid #3a3a4f;
+  color: white;
+  font-size: 14px;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 600px) {
-  .china-map {
-    max-width: 100%;
-  }
-}
-
-.province-active {
-  fill: #add8e6; /* Light blue */
-}
-
-.province-inactive {
-  fill: #808080; /* Light blue */
+.btn-custom:hover {
+  background-color: #50506e;
+  border-color: #50506e;
 }
 
 .province-text {
-  fill: #333333;
+  fill: white;
+  text-anchor: middle;
+}
+
+.province-active {
+  fill: #1e1e2f; /* Light blue */
 }
