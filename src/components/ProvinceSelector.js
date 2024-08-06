@@ -9,7 +9,15 @@ const ProvinceSelector = () => {
   const navigate = useNavigate();
 
   const handleProvinceClick = (event) => {
-    let provinceName = event.target.getAttribute('name');
+
+    let target = event.target;
+    // 检查是否点击的是 <text> 元素
+    if (target.tagName === 'text') {
+      // 获取 text 元素的父节点
+      target = target.parentNode.querySelector('path');
+    }
+
+    let provinceName = target.getAttribute('name');
     if (provinceName) {
       // 转换省份名称为小写并去掉下划线
       provinceName = provinceName.replace(/_/g, '').toLowerCase();
