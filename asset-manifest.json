@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/holiday-inn/static/css/main.b0f7c2e9.css",
-    "main.js": "/holiday-inn/static/js/main.ec106c61.js",
+    "main.js": "/holiday-inn/static/js/main.a3e51a86.js",
     "static/js/453.4986ef78.chunk.js": "/holiday-inn/static/js/453.4986ef78.chunk.js",
     "index.html": "/holiday-inn/index.html",
     "main.b0f7c2e9.css.map": "/holiday-inn/static/css/main.b0f7c2e9.css.map",
-    "main.ec106c61.js.map": "/holiday-inn/static/js/main.ec106c61.js.map",
+    "main.a3e51a86.js.map": "/holiday-inn/static/js/main.a3e51a86.js.map",
     "453.4986ef78.chunk.js.map": "/holiday-inn/static/js/453.4986ef78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0f7c2e9.css",
-    "static/js/main.ec106c61.js"
+    "static/js/main.a3e51a86.js"
   ]
 }
