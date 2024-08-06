@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aroma-booking/static/css/main.ff02f4b5.css",
-    "main.js": "/aroma-booking/static/js/main.648a5b10.js",
-    "static/js/453.8ab99a0f.chunk.js": "/aroma-booking/static/js/453.8ab99a0f.chunk.js",
-    "index.html": "/aroma-booking/index.html",
-    "main.ff02f4b5.css.map": "/aroma-booking/static/css/main.ff02f4b5.css.map",
-    "main.648a5b10.js.map": "/aroma-booking/static/js/main.648a5b10.js.map",
-    "453.8ab99a0f.chunk.js.map": "/aroma-booking/static/js/453.8ab99a0f.chunk.js.map"
+    "main.css": "/holiday-inn/static/css/main.b0f7c2e9.css",
+    "main.js": "/holiday-inn/static/js/main.2068953b.js",
+    "static/js/453.8ab99a0f.chunk.js": "/holiday-inn/static/js/453.8ab99a0f.chunk.js",
+    "index.html": "/holiday-inn/index.html",
+    "main.b0f7c2e9.css.map": "/holiday-inn/static/css/main.b0f7c2e9.css.map",
+    "main.2068953b.js.map": "/holiday-inn/static/js/main.2068953b.js.map",
+    "453.8ab99a0f.chunk.js.map": "/holiday-inn/static/js/453.8ab99a0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff02f4b5.css",
-    "static/js/main.648a5b10.js"
+    "static/css/main.b0f7c2e9.css",
+    "static/js/main.2068953b.js"
   ]
 }
