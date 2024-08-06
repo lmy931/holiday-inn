@@ -35,19 +35,17 @@ const ProvinceSelector = () => {
         onClick={handleProvinceClick}
         dangerouslySetInnerHTML={{ __html: ChinaMapPaths }}
       />
-      <ul className="list-group">
+      <div className="d-flex flex-wrap justify-content-center">
         {provinces.map(province => (
-          <li
+          <button
             key={province.name}
             onClick={() => handleListClick(province.name.toLowerCase())}
-            className="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
-            style={{ cursor: 'pointer' }}
+            className="btn btn-custom"
           >
             {province.name}
-            <span className="badge badge-primary badge-pill">&gt;</span>
-          </li>
+          </button>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
