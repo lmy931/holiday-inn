@@ -36,9 +36,9 @@ const ProductDetails = () => {
       <div>
         <p className="lead"><strong>产品特点：</strong></p>
         <ul className="list-unstyled">
-          {provinceDetails[province] && provinceDetails[province].split('，').map((detail, index) => (
-            <li key={index}>{detail}</li>
-          ))}
+        {provinceDetails[province] && provinceDetails[province].split(/[,，;；]/).map((detail, index) => (
+          <li key={index}>{detail}</li>
+        ))}
         </ul>
         <div className="text-center mt-5 mb-5">
           <button className="btn btn-primary" onClick={navigateToOrderForm}>一键下单</button>
