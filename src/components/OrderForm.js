@@ -52,23 +52,6 @@ const OrderForm = () => {
             required
           />
         </div>
-        {province && hotelsByProvince[province] && (
-          <div className="mb-3">
-            <label htmlFor="hotelSelect" className="form-label"><strong>选择酒店</strong></label>
-            <select
-              id="hotelSelect"
-              className="form-control"
-              value={selectedHotel}
-              onChange={(e) => setSelectedHotel(e.target.value)}
-              required
-            >
-              <option value="">请选择酒店</option>
-              {hotelsByProvince[province].map((hotel, index) => (
-                <option key={index} value={hotel}>{hotel}</option>
-              ))}
-            </select>
-          </div>
-        )}
         <div className="text-center">
           <button type="submit" className="btn btn-primary">提交订单</button>
         </div>
